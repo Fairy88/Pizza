@@ -18,10 +18,11 @@ font-family: 'Montserrat', sans-serif; */
     padding-left: 0;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
 .nav>li{
-    padding-left: 23px;
-    margin-left: 22px;
+    padding-left: 28px;
+    margin-left: 23px;
     position: relative;
 }
 .nav>li::before{
@@ -57,17 +58,19 @@ font-family: 'Montserrat', sans-serif; */
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding-top: 260px;
+    padding-top: 217px;
     padding-bottom: 285px;
 }
 .pizza{
     position: absolute;
-    right: 0;
-    top: -230px;
+    right: -15px;
+    top: -200px;
 }
 .banner__title{
     font-size: 50px;
-    margin-bottom: 23px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 0.5px;
 }
 .banner__desc{
     font-size: 25px;
@@ -83,13 +86,13 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 700;
     text-transform: uppercase;
     border: 2px solid #fff;
-    padding: 15px 35px;
+    padding: 12px 0;
     display: block;
-    width: 190px;
+    width: 188px;
     text-align: center;
 }
 .page{
-    padding: 120px 0 94px;
+    padding: 76px 0 83px;
 }
 .title{
     font-size: 45px;
@@ -100,7 +103,7 @@ font-family: 'Montserrat', sans-serif; */
     padding-right: 127px; /* ширина элемента + отступ */
     padding-left: 127px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
 }
 .title::before, .title::after{
     content: '';
@@ -132,7 +135,7 @@ font-family: 'Montserrat', sans-serif; */
     list-style-type: none;
     padding-left: 0;
     margin-top: 42px;
-    margin-bottom: 65px;
+    margin-bottom: 63px;
 }
 .menu>li{
     padding-left: 20px;
@@ -145,6 +148,8 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 18px;
+    letter-spacing: 1.3px;
+
 }
 .menu>li::before{
     content: "";
@@ -184,7 +189,7 @@ font-family: 'Montserrat', sans-serif; */
     margin-bottom: 100px;
 }
 .box-item {
-    padding: 64px 0 58px 55px;
+    padding: 54px 0 41px 55px;
     box-sizing: content-box;
 }
 .number {
@@ -193,7 +198,7 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 120px;
     position: relative;
     color: #282828;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 0;
 }
 .number::after{
@@ -236,7 +241,8 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 45px;
     font-weight: 700;
     color: #282828;
-    margin-bottom: 23px;
+    margin-bottom: 11px;
+    margin-top: 0;
 }
 .box-text p{
     font-family: 'Roboto', sans-serif;
